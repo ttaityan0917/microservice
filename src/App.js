@@ -56,7 +56,7 @@ function App() {
               disabled={loadingButton === 'b3'}
               className={loadingButton === 'b3' ? 'loading' : ''}
             >
-              メッセージ2を取得
+              メッセージ3を取得
             </button>
           </div>
           <div id="result" className={result !== '' ? 'active' : ''}>
