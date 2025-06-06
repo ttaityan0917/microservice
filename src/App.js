@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 
 const API_ENDPOINT1 = 'https://qcp7o27af1.execute-api.ap-northeast-1.amazonaws.com/function1';
 const API_ENDPOINT2 = 'https://qcp7o27af1.execute-api.ap-northeast-1.amazonaws.com/function2';
+const API_ENDPOINT3 = 'https://qcp7o27af1.execute-api.ap-northeast-1.amazonaws.com/function2';
+
 
 function App() {
   const [result, setResult] = useState('結果がここに表示されます');
@@ -46,6 +48,13 @@ function App() {
               onClick={() => callLambda(API_ENDPOINT2, 'b2')}
               disabled={loadingButton === 'b2'}
               className={loadingButton === 'b2' ? 'loading' : ''}
+            >
+              メッセージ2を取得
+            </button>
+            <button
+              onClick={() => callLambda(API_ENDPOINT3, 'b3')}
+              disabled={loadingButton === 'b3'}
+              className={loadingButton === 'b3' ? 'loading' : ''}
             >
               メッセージ2を取得
             </button>
