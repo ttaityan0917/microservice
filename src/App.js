@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const API_ENDPOINT1 = 'https://qcp7o27af1.execute-api.ap-northeast-1.amazonaws.com/function1';
 const API_ENDPOINT2 = 'https://qcp7o27af1.execute-api.ap-northeast-1.amazonaws.com/function2';
-const API_ENDPOINT3 = 'https://qcp7o27af1.execute-api.ap-northeast-1.amazonaws.com/function2';
+const API_ENDPOINT3 = 'https://qcp7o27af1.execute-api.ap-northeast-1.amazonaws.com/function3';
 
 
 function App() {
