@@ -64,6 +64,15 @@ function App() {
           </div>
         </div>
       </div>
+      <form action="" method="post">
+          <label for="birthday">生年月日:</label>
+          <input type="date" id="birthday" name="birthday" required></input>
+          <button type="submit">送信</button>
+      </form>
+
+      <div id="result" className={result !== '' ? 'active' : ''}>
+            {result}
+      </div>
     </>
   );
 }
